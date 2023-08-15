@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="small_calc",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Orlando Nascimento",
+    author_email="on_ferreira@id.uff.br",
+    description="Testing the creation of packages in Pypi with a small calculator package",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/on-ferreira/simple-package-test",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',

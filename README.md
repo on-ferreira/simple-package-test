@@ -1,27 +1,30 @@
-# package_name
+# small_calc
 
 Description. 
-The package package_name is used to:
-	- 
-	-
+The package small_calc is used to:
+
+	- Sum
+	- Subtraction
+	- Multiplication
+	- Division
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install small_calc
 
 ```bash
-pip install package_name
+pip install small_calc
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
+from small_calc import small_calc
+small_calc.my_function()
 ```
 
 ## Author
-My_name
+Orlando Nascimento
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
